@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--<selector xmlns:android="http://schemas.android.com/apk/res/android">-->
+<!--    <item android:color="@android:color/white" android:state_checked="true"/>-->
+<!--    <item android:color="@color/colorPrimaryDark"/>-->
+<!--</selector>-->
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/ithome"
+        android:title="@string/home"
+        android:icon="@drawable/home"/>
+
+    <item
+        android:id="@+id/itcall"
+        android:title="@string/call"
+        android:icon="@drawable/call"/>
+
+    <item
+        android:id="@+id/itprofile"
+        android:title="@string/profile"
+        android:icon="@drawable/user"/>
+
+</menu>
