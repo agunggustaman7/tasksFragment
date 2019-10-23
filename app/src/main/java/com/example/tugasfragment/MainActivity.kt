@@ -44,6 +44,10 @@ class MainActivity : AppCompatActivity() {
         transaction?.commit()
     }
 
+    override fun onBackPressed() {
+        finish()
+    }
+
 
 }
 
